@@ -1,6 +1,9 @@
-import "../src/styles/global.css"
+import "../src/styles/global.scss"
+import { RepositoryList } from "./compenents/RepositoryList"
 export function App(){
     return(
-        <h1>Oi</h1>
+        <>
+        <RepositoryList/>
+        </>
     )
 }
